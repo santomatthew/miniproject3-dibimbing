@@ -1,0 +1,227 @@
+.navbarmenu{
+    background-image: url(../../image/backgroundmenu.jpg);
+    font-family: 'Kanit', sans-serif;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 23px;
+    box-shadow: 5px 7px #000000;  
+}
+
+.main{
+    object-fit: contain;
+    background-image: url(../../image/bg2.jpg);
+    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow: -10px 10px 10px grey;
+}
+
+.carouselsetting{
+  /* object-fit: contain; */
+  text-align: center  ;
+}
+
+.carouselpictsize{
+  width: 400px;
+  height: 500px;
+}
+
+  .hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: black;
+    
+  }
+  
+  .hover-underline-animation:after {
+    display: flex;
+    flex-wrap: nowrap;
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: blue;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+    
+  }
+
+
+
+  .welcome{
+    padding-top: 150px;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    
+  }
+
+  .intro{
+      font-size: 30px;
+      font-family: 'Libre Baskerville', serif;
+      text-shadow: 2px 1px aqua
+  }
+
+  .iphonestyle{
+      width: 420px;
+      height: 450px;
+      border-radius: 20px;
+      margin: 10px
+  }
+
+  .first{
+      margin-top: 10px;
+      margin-bottom: 40px;
+      /* border: 2px solid black; */
+      box-shadow: -10px 20px 20px;
+      background-image: url(../../image/bg3.jpg);
+  }
+  
+  .ourpartner{
+    background-color: #a1d1e9;
+    border-top-right-radius: 20px ;
+    border-bottom-right-radius: 20px;
+    box-shadow: -2px 13px 15px;
+  }
+
+  .partner{
+      object-fit: contain;
+      width: 230px;
+      height: 180px;
+      transition: transform .2s;
+      border: 3px solid black;
+      border-radius: 15px ;
+      margin-top: 20px
+  }
+
+    .partner:hover{
+        transform: scale(1.5);
+        border: 3px solid blue;
+    }
+
+    .second{
+        background-image: url(../../image/bg4.jpg);
+        margin-top: 10px;
+    }
+      
+    .promo{
+      box-shadow: -2px 13px 15px;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+      background-color: #a1d1e9;
+      
+    }
+
+    .listpromo{
+      margin-top: 10px;
+      margin-bottom: 10px;
+      transition: transform .2s;
+    }
+
+    .listpromo:hover{
+      transform: scale(1.2);
+      background-color: rgb(199, 190, 190);  
+    }
+
+    .cardstyle{
+      width: 250px;
+      border: 20px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      border-radius: 20px;
+      transition: transform 250ms;
+
+    }
+
+    .cardstyle:hover{
+      transform: translateY(-10px);
+      background-color: #d8d8d8;
+    }
+
+    .cardtitle{
+      font-size: 20px;
+      text-shadow: 2px 2px 10px black  ;
+      box-shadow: 1px 1px 8px grey;
+      
+    }
+
+    .discount{
+      border: 2px solid red;
+      background-color: red;
+      color:white;
+      border-radius: 10px;
+    }
+    
+    .imgsizing{
+      border-radius: 25%;
+      width: 230px;
+      height: 230px
+    }
+
+    .boxpromo{
+      font-family: 'Oswald', sans-serif;
+    }
+
+    .footer{
+    background-image: url(../../image/backgroundmenu.jpg);
+    font-family: 'Neuton', serif;
+    margin-top: 10px;
+    text-align: left;
+    border-radius: 10px;
+    font-size: 23px;
+    box-shadow: 5px 7px black;  
+    margin-bottom: 30px;
+    }
+
+    .footertitle{
+      margin-top: 10px;
+      margin-left: 15px;
+      margin-right: 15px;
+      text-align: center;
+      border-radius: 20px;
+      background-color: #a1d1e9 ;
+      box-shadow: -2px 5px 3px;
+      font-family: 'Kanit', sans-serif;
+    }
+    
+    .footertext{
+      font-family: 'Cormorant Garamond', serif;
+    }
+
+    .loginform{
+      text-align: left;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      border-radius:20px;
+      box-shadow: 5px 7px #000000;  
+    }
+
+    .formloginfield{
+      margin-left: 20px;
+      margin-bottom: 30px;
+      margin-right: 10px;
+    }
+
+    .loginregistertitle{
+      font-size:80px;
+      text-align:'left';
+    }
+
+/* Navbar Font */
+@import url('https://fonts.googleapis.com/css2?family=Neuton:ital@1&display=swap');
+/* Intro */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+/* partner */
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+/* promo */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+/* Footer Font */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&display=swap');

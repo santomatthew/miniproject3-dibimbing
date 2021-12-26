@@ -1,0 +1,18 @@
+{
+    "headers": ["No", "Name", "Quantity" , "Price", "Option"],
+    "rows": [
+      {
+        "id": "111",
+        "name": "Oppo F11 Pro",
+        "quantity":"12",
+        "price": 400000
+      },
+      {
+        "id": "112",
+        "name": "Iphone XS",
+        "quantity":"5",
+        "price": 10000000
+      }
+    ]
+}
+  
